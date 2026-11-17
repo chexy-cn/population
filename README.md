@@ -147,3 +147,13 @@ The software and its accompanying documentation are released under the
 [MIT License](LICENSE). This does not relicense third-party inputs, manuscripts,
 or event datasets. The dataset license will be specified separately in the
 Zenodo deposit. Scientific references are in [docs/REFERENCES.md](docs/REFERENCES.md).
+
+## Author and AI assistance
+
+Author and maintainer: [Xinyi Che](https://github.com/chexy-cn).
+
+AI assistance: OpenAI Codex and ChatGPT. AI tools assisted with software
+development, refactoring, documentation, testing, and project-related discussion.
+They are acknowledged as assistive tools, not as scientific authors or copyright
+holders. Responsibility for the scientific assumptions, software, validation,
+and interpretation of results remains with the human author and contributors.
