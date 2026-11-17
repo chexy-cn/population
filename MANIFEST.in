@@ -1,4 +1,4 @@
-include README.md requirements-reproduction.txt
+include README.md LICENSE requirements-reproduction.txt
 recursive-include configs *.json
 recursive-include docs *.md *.json
 recursive-include examples *.slurm

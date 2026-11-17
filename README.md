@@ -139,8 +139,11 @@ large event catalogs or new GWTC-4 inference results.
 
 The manuscript's 500 combined CSVs occupy **14,230,310,053 bytes (13.25 GiB)**.
 See [docs/DATA_INVENTORY.md](docs/DATA_INVENTORY.md) for per-file sizes, compression
-estimates and publication options. Catalog publication has not been enabled.
+estimates. The authors have selected Zenodo for the manuscript catalog; upload
+and publication are pending. See [docs/ZENODO.md](docs/ZENODO.md) for account,
+packaging, metadata and upload steps. No dataset DOI has yet been assigned.
 
-Scientific references are in [docs/REFERENCES.md](docs/REFERENCES.md). A software
-license still needs to be selected by the authors before distribution; no
-third-party data or paper redistribution rights are granted by this repository.
+The software and its accompanying documentation are released under the
+[MIT License](LICENSE). This does not relicense third-party inputs, manuscripts,
+or event datasets. The dataset license will be specified separately in the
+Zenodo deposit. Scientific references are in [docs/REFERENCES.md](docs/REFERENCES.md).

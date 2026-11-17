@@ -28,6 +28,7 @@ phenomenological prescription and check that convention before claiming
 identical functional form to the forecast paper. The code does not alter the
 manuscript prescription during publication cleanup.
 
-Author decisions still needed before distribution: the code license, software
-authorship/citation metadata, public manuscript identifier, and whether historical
-event files will be deposited. These decisions do not prevent local reproduction.
+The software license is MIT. The authors selected Zenodo for the historical
+manuscript event files. Dataset licensing, software authorship/citation metadata,
+and the public manuscript identifier remain to be completed; no dataset DOI has
+been assigned. These decisions do not prevent local reproduction.

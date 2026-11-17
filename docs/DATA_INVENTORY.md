@@ -27,9 +27,10 @@ Streaming gzip level-6 measurements, without saving compressed copies:
 
 These representative measurements suggest about 6.7 GB (6.25 GiB) for all
 combined CSVs compressed separately. That is an estimate, not a completed archive
-measurement. No catalog archive has been uploaded or selected for publication.
+measurement. The authors have approved publishing the manuscript catalog on
+Zenodo; no archive has been uploaded yet.
 
-Possible author choices:
+The selected approach is option 2 below; the other options are retained for context:
 
 1. Publish only code, configuration, small parameter/validation tables and input
    provenance. Readers can regenerate the model; exact historical low-z rows

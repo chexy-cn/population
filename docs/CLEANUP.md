@@ -37,5 +37,7 @@ conditional count prescription rather than replacing it with a new absolute
 high-z count. The whole-range Madau-Dickinson and fresh-100 experiments are
 archived to prevent accidental use as the manuscript preset.
 
-Open author decisions: event-data deposition and code license/software citation
-metadata. The supplied draft's public identifier can be added after publication.
+The authors subsequently selected MIT for the software and Zenodo for the
+manuscript catalog. The dataset license, creator/ORCID metadata and software
+citation metadata remain to be completed. The supplied draft's public identifier
+can be added after publication. No remote publication has been performed here.

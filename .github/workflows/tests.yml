@@ -1,18 +1,25 @@
 name: tests
-on: [push, pull_request]
+"on": [push, pull_request]
 jobs:
   population:
-    runs-on: ubuntu-latest
+    # ubuntu-latest may select an image without a Python 3.9 build.
+    runs-on: ubuntu-24.04
     strategy:
+      fail-fast: false
       matrix:
         python-version: ['3.9', '3.12']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m pip install .
-      - run: python -m unittest discover -s tests -v
+      - name: Install tested numerical dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-reproduction.txt
+      - name: Install package
+        run: python -m pip install --no-deps .
+      - name: Run population tests
+        run: python -m unittest discover -s tests -v
         env:
           OMP_NUM_THREADS: '1'
           OPENBLAS_NUM_THREADS: '1'
