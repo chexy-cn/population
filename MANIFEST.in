@@ -1,0 +1,13 @@
+include README.md requirements-reproduction.txt
+recursive-include configs *.json
+recursive-include docs *.md *.json
+recursive-include examples *.slurm
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include reference *.json *.csv
+prune _local_archive
+prune outputs
+prune o4a-astro
+prune data
+prune paper
+global-exclude *.h5 *.hdf5 *.pdf *.pyc

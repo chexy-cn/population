@@ -1,0 +1,7 @@
+# Exact numerical stack used for the existing 500-realization manuscript catalog.
+# Python 3.9 in the historical GW environment; record Python in each new run.json.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+astropy==6.0.1
+h5py==3.13.0

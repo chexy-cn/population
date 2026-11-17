@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gwtc4-bbh-population"
+version = "0.1.0"
+description = "GWTC-4 BP2P intrinsic BBH catalogs and a manuscript high-redshift extension"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.26,<2",
+  "pandas>=2.0,<3",
+  "scipy>=1.10,<1.14",
+  "astropy>=5.3,<7",
+  "h5py>=3.8,<4"
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7,<4"]
+dev = ["pytest>=7,<9", "build>=1,<2"]
+
+[project.scripts]
+bbh-population = "bbh_population.cli:main"
+
+[tool.setuptools]
+packages = ["bbh_population"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["reference: requires the local official posterior and archived paper catalogs"]

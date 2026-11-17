@@ -1,0 +1,16 @@
+{
+  "model": "gwtc4",
+  "catalogs": 500,
+  "years": 1.0,
+  "low_z_max": 1.5,
+  "seed": 20260918,
+  "extension_seed": 20260920,
+  "extension": {
+    "z_join": 1.5,
+    "z_max": 30.0,
+    "gamma": 3.2,
+    "z_turn": 1.9,
+    "kappa_high": 5.6,
+    "grid_size": 30000
+  }
+}

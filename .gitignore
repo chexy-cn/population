@@ -1,0 +1,32 @@
+# Generated data, existing local datasets, third-party inputs and references.
+/outputs/
+/catalog_*/
+/bbh_catalogs_*/
+/o4a-astro/
+/data/
+/paper/
+/filter_catalog_for_dCS/
+/redshift_validation/
+/_local_archive/
+*.h5
+*.hdf5
+*.pdf
+*.csv.tmp
+*.tar
+*.tar.gz
+*.zip
+*.gz
+slurm-*.out
+slurm-*.err
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# Private paths and environment state never belong in a public source release.
+.env
+.env.*

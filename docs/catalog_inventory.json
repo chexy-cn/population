@@ -1,0 +1,170 @@
+[
+  {
+    "directory": "bbh_catalogs_bp2p",
+    "file_count": 2,
+    "catalog_count": 1,
+    "bytes": 31130900,
+    "mean_catalog_bytes": 31130629.0,
+    "largest_catalog_bytes": 31130629
+  },
+  {
+    "directory": "bbh_catalogs_gwtc4_bp2p",
+    "file_count": 501,
+    "catalog_count": 500,
+    "bytes": 4378389349,
+    "mean_catalog_bytes": 8756338.116,
+    "largest_catalog_bytes": 30198690
+  },
+  {
+    "directory": "bbh_catalogs_gwtc4_bp2p_dcs_filtered",
+    "file_count": 3001,
+    "catalog_count": 3000,
+    "bytes": 254280858,
+    "mean_catalog_bytes": 84748.94533333334,
+    "largest_catalog_bytes": 571981
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30",
+    "file_count": 501,
+    "catalog_count": 500,
+    "bytes": 13079671534,
+    "mean_catalog_bytes": 26158879.92,
+    "largest_catalog_bytes": 49570236
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_appended",
+    "file_count": 502,
+    "catalog_count": 500,
+    "bytes": 14230310053,
+    "mean_catalog_bytes": 28460175.152,
+    "largest_catalog_bytes": 97956945
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_appended_100",
+    "file_count": 102,
+    "catalog_count": 100,
+    "bytes": 2859295917,
+    "mean_catalog_bytes": 28592512.08,
+    "largest_catalog_bytes": 75197226
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_appended_100_seed20260921",
+    "file_count": 102,
+    "catalog_count": 100,
+    "bytes": 2859059025,
+    "mean_catalog_bytes": 28590143.17,
+    "largest_catalog_bytes": 75297857
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_appended_smoke",
+    "file_count": 3,
+    "catalog_count": 1,
+    "bytes": 27164735,
+    "mean_catalog_bytes": 27163946.0,
+    "largest_catalog_bytes": 27163946
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_appended_snr_raw_gr_filtered",
+    "file_count": 3006,
+    "catalog_count": 3000,
+    "bytes": 79064303442,
+    "mean_catalog_bytes": 26354727.632666666,
+    "largest_catalog_bytes": 115192262
+  },
+  {
+    "directory": "catalog_gwtc4_extended_z30_smoke_20260920",
+    "file_count": 2,
+    "catalog_count": 1,
+    "bytes": 43864534,
+    "mean_catalog_bytes": 43863795.0,
+    "largest_catalog_bytes": 43863795
+  },
+  {
+    "directory": "catalog_gwtc4_fresh_extended_z30_100_seed20260922",
+    "file_count": 101,
+    "catalog_count": 100,
+    "bytes": 2974655564,
+    "mean_catalog_bytes": 29746091.38,
+    "largest_catalog_bytes": 44934615
+  },
+  {
+    "directory": "catalog_gwtc4_fresh_extended_z30_100_seed20260922_snr_raw_gr_filtered",
+    "file_count": 600,
+    "catalog_count": 600,
+    "bytes": 16274910002,
+    "mean_catalog_bytes": 27124850.003333334,
+    "largest_catalog_bytes": 51973187
+  },
+  {
+    "directory": "catalog_gwtc4_fresh_extended_z30_smoke_seed20260922",
+    "file_count": 2,
+    "catalog_count": 1,
+    "bytes": 26632614,
+    "mean_catalog_bytes": 26631920.0,
+    "largest_catalog_bytes": 26631920
+  },
+  {
+    "directory": "catalog_gwtc4_highz_extension_z1p5_30",
+    "file_count": 500,
+    "catalog_count": 500,
+    "bytes": 9851977518,
+    "mean_catalog_bytes": 19703955.036,
+    "largest_catalog_bytes": 67758373
+  },
+  {
+    "directory": "catalog_gwtc4_highz_extension_z1p5_30_100",
+    "file_count": 100,
+    "catalog_count": 100,
+    "bytes": 1979380411,
+    "mean_catalog_bytes": 19793804.11,
+    "largest_catalog_bytes": 52027920
+  },
+  {
+    "directory": "catalog_gwtc4_highz_extension_z1p5_30_100_seed20260921",
+    "file_count": 100,
+    "catalog_count": 100,
+    "bytes": 1979143520,
+    "mean_catalog_bytes": 19791435.2,
+    "largest_catalog_bytes": 52128551
+  },
+  {
+    "directory": "catalog_gwtc4_highz_extension_z1p5_30_smoke",
+    "file_count": 1,
+    "catalog_count": 1,
+    "bytes": 18819020,
+    "mean_catalog_bytes": 18819020.0,
+    "largest_catalog_bytes": 18819020
+  },
+  {
+    "directory": "catalog_plots",
+    "file_count": 6,
+    "catalog_count": 0,
+    "bytes": 687836,
+    "mean_catalog_bytes": null,
+    "largest_catalog_bytes": null
+  },
+  {
+    "directory": "catalog_validation_gwtc4_bp2p",
+    "file_count": 5,
+    "catalog_count": 0,
+    "bytes": 200723,
+    "mean_catalog_bytes": null,
+    "largest_catalog_bytes": null
+  },
+  {
+    "directory": "catalog_validation_gwtc4_highz_append",
+    "file_count": 7,
+    "catalog_count": 0,
+    "bytes": 258730,
+    "mean_catalog_bytes": null,
+    "largest_catalog_bytes": null
+  },
+  {
+    "directory": "catalog_validation_gwtc4_highz_append_smoke",
+    "file_count": 5,
+    "catalog_count": 0,
+    "bytes": 161184,
+    "mean_catalog_bytes": null,
+    "largest_catalog_bytes": null
+  }
+]
